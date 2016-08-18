@@ -7,8 +7,7 @@
 /* form suscripcion */
 
 .suscripcioncuadro{
-	/*background: url(../image/bg_trama_rayas.jpg);*/
-	background-color: red;
+	background: url(../image/trama_square.jpg);
 	padding: 40px 0px 10px 0px;
 }
 .bg-whiteform{
@@ -16,10 +15,29 @@
 }
 .bg-whiteform form{
 	width: 100%;
-	padding: 20px 40px 10px 10px;
+	padding: 10px 35px;
 }
 .d-flex{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.suscripcionimg{
+	margin-top: -25px;
+}
+.titleform{
+	font-size: 1em;
+}
+.substitle{
+	font-weight: bold;
+}
+.inputs-subs{
+	width: 90%;
+	margin: 5px;
+}
+.btnsubcrip{
+	margin: 10px 4px;
+	padding: 5px 3.2em;
+	background-color: #C00101;
+	color: white;
 }
