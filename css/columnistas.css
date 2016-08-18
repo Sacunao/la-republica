@@ -89,6 +89,7 @@
 .botontefect{
 	color: white;
 	padding: 0.8% 30px;
+	border-radius: 15px;
 }
 .botontefect:hover{
 	color: white;
