@@ -1,1 +1,148 @@
 /*General*/
+.container{
+	width: 80%;
+}
+/*······HEADER······*/
+header{
+	background-color: #EAEAEA;
+	padding: 1%;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+header img{
+	width: 100%;
+}
+header .cizquierda{
+	padding:1.5% 0 0 0;
+}
+header .cderecha{
+	text-align: right;
+	padding:1% 0 0 0;
+}
+.otrosDiarios a{
+	color: gray;
+	font-weight: bold;
+	margin-right: 1%;
+	text-decoration: none;
+}
+header .boton{
+	background-color: #D72348;
+	border-radius: 5%;
+	display: inline-block;
+	padding: 0.5%;
+}
+header .boton a{
+	color: white;
+	text-decoration: none;
+}
+.headerIconos{
+	display: inline;
+	margin: 0 1.5%;
+}
+.ifb{
+	color: #00468C;
+	font-size: 1.5em;
+	margin:1%;
+}
+.itw{
+	color:#009BCE;
+	font-size: 1.5em;
+	margin:1%;
+}
+.igmail{
+	color: #9B0505;
+	font-size: 1.5em;
+	margin:1%;
+}
+.imsj{
+	color: #FFC92E;
+	font-size: 1.5em;
+	margin:1%;
+}
+.irs{
+	color: orange;
+	font-size: 1.5em;
+	margin:1%;
+}
+.buscador{
+	display: inline-block;
+	border-left: 0.5px solid gray;
+	border-right: 0.5px solid gray;
+	padding:0 1%;
+	width: 20%;
+}
+input{
+	background-color: transparent;
+	border:none;
+	width: 80%;
+}
+.buscador a .ilupa{
+	color: gray;
+	float: right;
+	font-size: 1.5em;
+	display: inline;
+}
+/*······PRIMERA SECCION (DN)······*/
+.laRepublica{
+	padding: 2% 0;
+}
+.laRepublica h1{
+	color: red;
+	font-weight: bold;
+	font-size: 3em;
+}
+.cdos{
+	padding: 0;
+}
+.manta{
+	padding: 1.5% 0;
+	position: relative;
+}
+.capsulaCentral{
+	border: 0.3px solid gray;
+	border-bottom: 4px solid #8C0000;
+	padding: 10% 2.5% 2% 2.5%;
+	text-align: center;
+}
+.laRepublica .capsulaCentral a{
+	color: black;
+	font-weight: bold;
+}
+.cuadradoGuinda{
+	background-color: #8C0000;
+	font-weight: bold;
+	color: white;
+	padding: 0.5%;
+	display: inline-block;
+	position: absolute;
+	top:0px;
+	left: 40%;
+}
+.cuadroDere{
+	background: #2C3238;
+	border-top: 0.5px solid gray;
+	border-bottom: 0.5px solid gray;
+}
+.cuadroDere .imgeditorial{
+	width: 5%;
+}
+.cuadroDere .texto{
+	background-color: white;
+	border-radius: 5%;
+	display: inline-block;
+	padding: 5% 7%;
+}
+.cuadroDere .texto .negrita{
+	font-weight: bold;
+	color: black;
+}
+.cuadroDere .texto a{
+	color: black;
+}
+.cuadroDere .imgtio{
+	position: absolute;
+	top:0;
+	left: 78%;
+	width: 15%;
+}
+
