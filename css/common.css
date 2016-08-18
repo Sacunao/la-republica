@@ -74,7 +74,7 @@ header .boton{
 	border-right: 0.5px solid gray;
 	padding:0 1%;
 }
-input{
+.buscador input{
 	background-color: transparent;
 	border:none;
 	width: 80%;
