@@ -101,6 +101,10 @@
 .hoveralvaro{
 	margin-bottom: 10px;
 }
+.hoveralvaro:hover{
+	background-color: white;
+	border: 0.3px grey solid;
+}
 /*----Media Queries-------*/
 @media (max-width: 1024px){
 	body{
