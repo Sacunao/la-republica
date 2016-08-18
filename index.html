@@ -1,17 +1,939 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <title>La República</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link type=text/css href="css/common.css" rel="stylesheet">
-	    <link type=text/css href="css/main.css" rel="stylesheet">
-	</head>
-	<body>
-		
-		<script src="js/jquery.min.js"></script>
-   		<script src="js/bootstrap.min.js"></script>
-	</body>
-</html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>La República</title>
+			<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+			<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+			<link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<link type="text/css" href="css/common.css" rel="stylesheet">
+		  <link type="text/css" href="css/main.css" rel="stylesheet">
+		</head>
+		<body>
+			<header>
+				<div class="container">
+					<div class="row bannerTop visible-lg-block">
+						<img src="image/banner_top.jpg">
+					</div>
+					<div class="row">
+						<div class="col-lg-5 col-xs-12 cizquierda">
+							<nav class="otrosDiarios">
+								<a href="#">LIBERO.PE</a>
+								<a href="#">ELPOPULAR.PE</a>
+								<a href="#">FUNDACION GUSTAVO MOHME LLONA</a>
+							</nav>
+						</div>
+						<div class="col-lg-7 col-xs-12 cderecha">
+							<div class="col-xs-4"> 
+								<button type="button" class="btn btn-default btn-xs boton">SUSCRÍBETE AL BOLETÍN</button>
+							</div>
+							<div class="col-xs-4">
+								<div class="headerIconos">
+									<i class="fa fa-facebook-f ifb"></i>
+									<i class="fa fa-twitter itw"></i>
+									<i class="fa fa-google-plus igmail"></i>
+									<i class="fa fa-envelope imsj"></i>
+									<i class="fa fa-rss irs"></i>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="buscador">
+									<input type="text" name="buscar" placeholder="BUSCAR">
+									<a href="#"><i class="ilupa fa fa-search"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="container">
+				<section id="header2">
+					<div class="laRepublica">
+						<div class="row">
+							<div class="col-lg-4 col-xs-12 cuno">
+								<img src="image/logo-la-republica.jpg" alt="la-republica">
+							</div>
+							<div class="col-lg-4 col-xs-12 cdos">
+								<div class="manta">
+									<div class="capsulaCentral">
+										<a href="#">HABLA LA LIDEREZA DEL NACIONALISMO</a>
+										<div class="cuadradoGuinda">DOMINGO</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-xs-12 ctres">
+								<div class="manta">
+									<div class="cuadroDere">
+										<img src="image/img_editorial_text.jpg" class="image-left pull-left">
+										<div class="texto display-flex">
+											<a href="#" class="negrita">La corrupción, los orígenes</a></br>
+											<a href="#">por: <i>Gustavo Mohme Llona</i></a>
+										</div>
+										<img src="image/img_author.jpg" class="image-right pull-right">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul class="nav nav-tabs visible-lg-block" role="tablist">
+							<li><a href="#">politica</a></li>
+							<li><a href="#">economia</a></li>
+							<li><a href="#">sociedad</a></li>
+							<li><a href="#">elecc. regionales</a></li>
+							<li><a href="#">deportes</a></li>
+					    <li class="active"><a href="#">champions</a></li>
+					    <li><a href="#">espectaculos</a></li>
+					    <li><a href="#">ed. impresa</a></li>
+					    <li><a href="#">regionales</a></li>
+					    <li><a href="#">más secciones</a></li>
+					</ul>
+					<div class="row tema-dia">
+							<div class="col-xs-2 tema">
+								<p class="tm-title">TEMAS DEL DIA</p>
+							</div>
+							<div class="col-xs-10 visible-lg-block lista">
+								<a href="#">Globos de Oro</a><img src="image/bullet.gif">
+								<a href="#">YouTube</a><img src="image/bullet.gif">
+								<a href="#">PNP</a><img src="image/bullet.gif">
+								<a href="#">Charlie Hebdo</a><img src="image/bullet.gif">
+								<a href="#">Globos de Oro</a><img src="image/bullet.gif">
+								<a href="#">YouTube</a><img src="image/bullet.gif">
+								<a href="#">PNP</a><img src="image/bullet.gif">
+								<a href="#">Charlie Hebdo</a><img src="image/bullet.gif">
+							</div>
+							<div class="col-xs-10 hidden-lg visible-md-block visible-sm-block lista">
+								<a href="#">Globos de Oro</a><img src="image/bullet.gif">
+								<a href="#">YouTube</a><img src="image/bullet.gif">
+								<a href="#">PNP</a><img src="image/bullet.gif">
+								<a href="#">Charlie Hebdo</a><img src="image/bullet.gif">
+								<a href="#">Globos de Oro</a><img src="image/bullet.gif">
+							</div>
+							<div class="col-xs-10 hidden-lg hidden-md hidden-sm lista">
+								<a href="#">Globos de Oro</a><img src="image/bullet.gif">
+								<a href="#">YouTube</a><img src="image/bullet.gif">
+								<a href="#">PNP</a><img src="image/bullet.gif">
+							</div>
+					</div>
+					<div class="row visible-lg-block">
+						<img class="center-block banner-header" src="image/banner-header.jpg" alt="publicidad">
+					</div>
+				</section>
+				<section class="principal_noticias">
+					<h1> GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
+					<div class="redes_sociales ">
+						<i class="fa fa-facebook iconos" aria-hidden="true"></i>
+						<i class="fa fa-twitter iconos" aria-hidden="true"></i>
+						<i class="fa fa-google-plus iconos" aria-hidden="true"></i>
+						<ul class="text_principal">
+							<li ><a href="#" >Hace 12 minutos</a></li>
+							<li ><a href="#" >POLÍTICA</a></li>
+						</ul>
+					</div>
+					<div class="row image_articulos">
+						<div class="col-lg-6 col-md-6 col-xs-12">
+							<div class="noticia_principal">
+								<div class="noticia_next">
+									<h2><a href="#"> JNE impulsará campaña en favor de la aprobación de la Reforma Electoral</a></h2>
+									<div class="redes_sociales ">
+										<i class="fa fa-facebook iconos" aria-hidden="true"></i>
+										<i class="fa fa-twitter iconos" aria-hidden="true"></i>
+										<i class="fa fa-google-plus iconos" aria-hidden="true"></i>
+										<ul>
+											<li ><a href="#">Hace 12 minutos</a></li>
+											<li ><a href="#">POLÍTICA</a></li>
+										</ul>
+									</div>
+									
+								</div>	
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-xs-12">
+							<div class="noticia_secundario">
+								<div class="noticia_next_a">
+									<h3><a href="#">Martín Belaunde Lossio: Empresas vinculadas al empresario contrataron por s/.3 000 millones | FOTOS</a></h3>
+									<div class="redes_sociales">
+										<i class="fa fa-facebook iconos" aria-hidden="true"></i>
+										<i class="fa fa-twitter iconos" aria-hidden="true"></i>
+										<i class="fa fa-google-plus iconos" aria-hidden="true"></i>
+										<ul>
+											<li ><a href="#">Hace 12 minutos</a></li>
+											<li ><a href="#">POLÍTICA</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="noticia_secundario">
+								<div class="noticia_next_b">
+									<h3><a href="#">Mercado de pases 2015: altas, bajas y rumores de los equipos peruanos</a></h3>
+									<div class="redes_sociales">
+										<i class="fa fa-facebook iconos" aria-hidden="true"></i>
+										<i class="fa fa-twitter iconos" aria-hidden="true"></i>
+										<i class="fa fa-google-plus iconos" aria-hidden="true"></i>
+										<ul>
+											<li ><a href="#">Hace 12 minutos</a></li>
+											<li ><a href="#">POLÍTICA</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</section>
+				<section class="columnistas">
+					<span class="cabecera">COLUMNISTAS</span>						
+							<div class="row image-section-columnistas">		
+								<div class="col-lg-3 col-md-3 col-xs-6 texto1">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-xs-6 texto1">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-xs-6 texto1">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-xs-6 texto1">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								</div>
+								<div class="row image-section-columnistas">		
+								<div class="col-lg-3 col-md-3 col-xs-6 texto1">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-xs-6 texto1">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-xs-6 texto1">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3 col-xs-6 texto1">
+									<div class="row">
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+										<div class="col-lg-6">
+											<a href="#" class="cuadros-noticias">
+												<img class="imagens2" src="image/img_noticias_relacionadas_slider.jpg" alt="images-columnistas">
+												<p class="titulo-columnistas">Mario Vargas Llosa</p>
+												<p class="subtitulo-columnistas">Megarrenuncia apulpinante</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								</div>		
+				</section>
+				<section class="H07-noticias-destacadas">
+						<div class="row">
+							<div class="col-lg-8">
+								<div class="row noticias-destacadas">
+										<div class="col-lg-6 col-md-6">
+												<div class="img-thumbnail">
+													 <h3 class="titulo-destadas">Mercado de Pases 2015</h3>
+													 <div class="image-noticias">
+													 		<h3 class="lista-noticias"><a href="#">Mercado de pases 2015:altas, bajas y rumores de los equipos peruanos</a></h3>
+													 </div>
+														<p><span>Todo sobre</span><a href="#" >Mercado de Pases 2015</a></p>
+												</div>
+										</div>
+										<div class="col-lg-6 col-md-6">
+												<div class="img-thumbnail">
+													 <h3 class="titulo-destadas">Mercado de Pases 2015</h3>
+													 <div class="image-noticias">
+													 		<h3 class="lista-noticias"><a href="#">Mercado de pases 2015:altas, bajas y rumores de los equipos peruanons | VIDEO</a></h3>
+													 </div>
+														<p><span>Todo sobre</span><a href="#" > Mercado de Pases 2015</a></p>
+												</div>
+										</div>
+								</div>
+								<div class="row noticias-destacadas">
+										<div class="col-lg-6 col-md-6">
+												<div class="img-thumbnail">
+													 <h3 class="titulo-destadas">Mercado de Pases 2015</h3>
+													 <div class="image-noticias">
+													 		<h3 class="lista-noticias"><a href="#">Mercado de pases 2015:altas, bajas y rumores de los equipos peruanos</a></h3>
+													 </div>
+														<p><span>Todo sobre</span><a href="#" > Mercado de Pases 2015</a></p>
+												</div>
+										</div>
+										<div class="col-lg-6 col-md-6">
+												<div class="img-thumbnail">
+													 <h3 class="titulo-destadas">Mercado de Pases 2015</h3>
+													 <div class="image-noticias">
+													 		<h3 class="lista-noticias"><a href="#">Mercado de pases 2015:altas, bajas y rumores de los equipos peruanons | VIDEO</a></h3>
+													 </div>
+														<p><span>Todo sobre</span><a href="#" > Mercado de Pases 2015</a></p>
+												</div>
+										</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<section id="publicidadysubscripcion" class="hidden-sm hidden-xs">
+									<img class="img-responsive" alt="Imagen responsive" src="image/banner-aside-home.jpg" alt="publicidadcuponidad">
+								</section>
+							</div>
+						</div>
+				</section>
+				<section class="H08-ultimas-noticias">
+					<div class="row">
+							<div class="col-lg-8">
+								<div class="row noticias-destacadas">
+										<div class="col-lg-6 col-md-6 col-xs-12">
+											
+										</div>
+								</div>
+							</div>
+					</div>					
+				</section>
+			</div>
+
+			<!-- Aweita -->
+		<section>
+			<div class="container">
+				<div class="row">
+	      			<div class="col-md-8">
+	      			</div>
+	      			<div class="col-md-4 hidden-xs hidden-sm borde">
+		      			<div class="imagenaweita">
+		      				<img  src="image/logo_aweita.jpg">
+		      			</div>
+	      				<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading"><a href="#">
+								Juan Román Riquelme, el adiós al "Último 10" de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading"><a href="#">
+								Juan Román Riquelme, el adiós al "Último 10" de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading"><a href="#">
+								Juan Román Riquelme, el adiós al "Último 10" de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading"><a href="#">
+								Juan Román Riquelme, el adiós al "Último 10" de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="text-center margin-top">
+							<span>Más en </span><a class="morado">Aweita.pe</a>
+							<div class="linea"></div>
+						</div>				
+	     		 	</div>
+	    		</div>
+			</div>
+		</section>
+	<!-- Fotos descatadas -->
+		<section>
+			<div class="container">
+				<div class="row">
+	      			<div class="col-md-8">
+	      			</div>
+	      			<div class="col-md-4 hidden-xs hidden-sm">
+		      			<div class="foto-destacada"></div>
+		      			<strong><a href="#">Líneas de Nasca: admiten prisión preventiva de 6 meses para activista de Greenpeace | FOTOS</a></strong>
+	      				<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_fotodes.jpg" alt="img_fotodes.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<strong class="media-heading"><a href="#">
+								Uchuraccay: El pueblo que recibe con flores a quienes llegan a pie | FOTOS</a></strong>
+		 				 	</div>
+						</div>
+					    <div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_fotodes.jpg" alt="img_fotodes.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<strong class="media-heading"><a href="#">
+								Alianza Lima vs Fénix: íntimos ganaron 1-0 en "Noche Blanquiazul"| VIDEO Y FOTOS</a></strong>
+		 				 	</div>
+						</div>
+						<div class="media">
+		  					<div class="media-left">
+			    				<a href="#">
+			      				<img class="media-object" src="image/img_fotodes.jpg" alt="img_fotodes.jpg">
+			    				</a>
+			  				</div>
+		  					<div class="media-body">
+		    				<strong class="media-heading"><a href="#">
+								Alianza Lima vs Fénix: íntimos ganaron 1-0 en "Noche Blanquiazul"| VIDEO Y FOTOS</a></strong>
+		 					</div>
+		 					<div class="border-bottom"></div>
+						</div>
+					</div>			
+	    		</div>
+			</div>
+		</section>
+	<!--Aqui va a la que le toque infografias-->	
+	<!-- Especiales -->
+		<section>
+			<div class="container">
+				<div class="row">
+	      			<div class="col-md-8">
+	      			</div>
+	      			<div class="col-md-4 hidden-xs hidden-sm">
+	      				<div class="text-center">
+	      					<div class="img_especiales_aside"></div>
+	      					<div class="opacity text-center">
+	      						<strong><a href="#">Régimen Laboral juvenil</a></strong>
+	      					</div>
+	      				</div>
+	      				<div class="text-center">
+	      					<div class="img_especiales_aside"></div>
+	      					<div class="opacity text-center">
+	      						<strong><a href="#">Régimen Laboral juvenil</a></strong>
+	      					</div>
+	      				</div>
+	      				<div class="text-center">
+	      					<div class="img_especiales_aside"></div>
+	      					<div class="opacity text-center">
+	      						<strong><a href="#">Régimen Laboral juvenil</a></strong>
+	      					</div>
+	      				</div>
+	      				<div class="text-center">
+	      					<div class="img_especiales_aside"></div>
+	      					<div class="opacity_espcies text-center">
+	      						<strong><a href="#">Especies peruanas en peligro de extinción</a></strong>
+	      					</div>
+	      				</div>
+	      			<div class="border-botton-esp"></div>	
+	      			</div>
+				</div>
+			</div>			
+		</section>
+	<!-- Carlincaturas -->
+		<section>
+			<div class="container">
+				<div class="row">
+	      			<div class="col-md-8">
+	      			</div>
+	      			<div class="col-xs-12 col-sm-6 col-md-4">
+	      				<div class="text-center">
+	      					<strong><a href="#">Carlincaturas 30-01-2015</a></strong>
+	      					<div class="img_carlincatura" alt="img_carlincatura">
+	      					</div>
+	      					<div class="text-center">
+	      						<strong><a href="#">Todas las Carlincaturas</a></strong>
+	      					</div>
+	      				</div>
+	      				<div class="border-bottom"></div>	
+	      			</div>
+				</div>
+			</div>			
+		</section>
+	<!-- Nuestros Blogueros -->
+		<section>
+			<div class="container">
+				<div class="row">
+	      			<div class="col-md-8">
+	      			</div>
+	      			<div class="col-xs-12 col-sm-6 col-md-4">
+	      				<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_blogueros.jpg" alt="img_blogueros.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		  						<a href="#" class="subrayado-blog">Augusto Álvarez Rodrich</a>
+		    					<p><strong class="media-heading"><a href="#">
+								Charlie Hebdo, historia que no debe repetirse</a></strong></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_blogueros.jpg" alt="img_blogueros.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		  						<a href="#" class="subrayado-blog">Augusto Álvarez Rodrich</a>
+		    					<p><strong class="media-heading"><a href="#">
+								Charlie Hebdo, historia que no debe repetirse</a></strong></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_blogueros.jpg" alt="img_blogueros.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		  						<a href="#" class="subrayado-blog">Augusto Álvarez Rodrich</a>
+		    					<p><strong class="media-heading"><a href="#">
+								Charlie Hebdo, historia que no debe repetirse</a></strong></p>
+		 				 	</div>
+						</div>
+						<div class="border-bottom"></div>
+					</div>			
+	    		</div>
+			</div>
+		</section>
+	<!--Aqui va a la que le toque preguntas de hoy y ayer-->		
+	<!-- libero.pe -->
+		<section>
+			<div class="container">
+				<div class="row">
+	      			<div class="col-md-8">
+	      			</div>
+	      			<div class="col-md-4 hidden-xs hidden-sm borde">
+	      			<div class="imagenaweita">
+	      				<img  src="image/logo_libero.jpg">
+	      			</div>
+	      				<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading"><a href="#">
+								Fiorentina empató 1-1 en su visita al Genoa con gran actuación de Juan Vargas[VIDEO]</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading"><a href="#">
+								Juan Román Riquelme, el adiós al 'Último 10' de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading"><a href="#">
+								Juan Román Riquelme, el adiós al 'Último 10' de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading"><a href="#">
+								Juan Román Riquelme, el adiós al 'Último 10' de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="text-center margin-top">
+							<span>Más en </span><a href="#" class="red">Libero.pe</a>
+							<div class="lineados"></div>
+						</div>					
+	     		 	</div>
+	    		</div>
+			</div>
+		</section>
+	<!-- el popular -->
+		<section>
+			<div class="container">
+				<div class="row">
+	      			<div class="col-md-8">
+	      			</div>
+	      			<div class="col-md-4 hidden-xs hidden-sm borde">
+	      			<div class="imagenaweita">
+	      				<img  src="image/logo_popular.jpg">
+	      			</div>
+	      				<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading">
+								<a href="#">Fiorentina empató 1-1 en su visita al Genoa con gran actuación de Juan Vargas[VIDEO]</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading">
+								<a href="#">Juan Román Riquelme, el adiós al 'Último 10' de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading">
+								<a href="#">Juan Román Riquelme, el adiós al 'Último 10' de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading">
+								<a href="#">Juan Román Riquelme, el adiós al 'Último 10' de Argentina</p>
+		 				 	</div>
+						</div>	
+						<div class="text-center margin-top">
+							<span>Más en </span><a href="#" class="red">elPopular.pe</a>
+							<div class="lineatres"></div>
+						</div>				
+	     		 	</div>
+	    		</div>
+			</div>
+		</section>
+	<!-- wapa -->
+		<section>
+			<div class="container">
+				<div class="row">
+	      			<div class="col-md-8">
+	      			</div>
+	      			<div class="col-md-4 hidden-xs hidden-sm borde">
+	      			<div class="imagenaweita">
+	      				<img  src="image/logo_wapa.jpg">
+	      			</div>
+	      				<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading">
+								<a href="">Fiorentina empató 1-1 en su visita al Genoa con gran actuación de Juan Vargas[VIDEO]</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading">
+								<a href="">Juan Román Riquelme, el adiós al 'Último 10' de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading">
+								<a href="">Juan Román Riquelme, el adiós al 'Último 10' de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="media">
+	  						<div class="media-left">
+		    					<a href="#">
+		      					<img class="media-object" src="image/img_aweita.jpg" alt="img_aweita.jpg">
+		    					</a>
+		  					</div>
+		  					<div class="media-body">
+		    					<p class="media-heading">
+								<a href="">Juan Román Riquelme, el adiós al 'Último 10' de Argentina</a></p>
+		 				 	</div>
+						</div>
+						<div class="text-center margin-top">
+							<span>Más en </span><a href="" class="red">Wapa.pe</a>
+							<div class="lineados"></div>
+						</div>					
+	     		 	</div>
+	    		</div>
+			</div>
+		</section>		
+
+
+
+
+
+
+
+
+
+			<footer>
+				<div class="ft-big visible-lg-block">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 ft-logo">
+								<img src="image/logo-grupo-la-republica.png">
+								<h4>Grupo La Republica Digital</h4>
+								<p>Jr. Camaná 320 Cercado de Lima</p>
+								<p>Telefono: 711-600</p>
+								<p>(Central Telefonica)</p>
+								<small>Todos los derechos reservados - 2015</small>
+							</div>
+							<div class="col-md-8 footer-menu">
+								<div class="col-md-3">
+									<a href="#">Roger Federer</a>
+									<a href="#">SBS</a>
+									<a href="#">Scarlett Johansson</a>
+									<a href="#">Selena Gomez</a>
+									<a href="#">Spiderman</a>
+									<a href="#">Sporting Cristal</a>
+									<a href="#">Sunat</a>
+									<a href="#">Telefónica del Perú</a>
+									<a href="#">The Walking Dead</a>
+									<a href="#">Twitter</a>
+									<a href="#">Universidad Cesar Vallejo</a>
+									<a href="#">Universidad San Martin</a>
+									<a href="#">Universitario de Deportes</a>
+									<a href="#">Xbox</a>
+									<a href="#">YouTube</a>
+									<a href="#">Bayer Munich</a>
+									<a href="#">BBVA</a>
+									<a href="#">Xbox</a>
+									<a href="#">BCP</a>
+								</div>
+								<div class="col-md-3">
+									<a href="#">Al fondo hay sitio</a>
+									<a href="#">Alejandro Toledo</a>
+									<a href="#">Alianza Lima</a>
+									<a href="#">Alianza Lima</a>
+									<a href="#">Banco de la Nación</a>
+									<a href="#">Barack Obama</a>
+									<a href="#">Universidad Cesar Vallejo</a>
+									<a href="#">Universidad San Martín</a>
+									<a href="#">Barcelona</a>
+									<a href="#">Bayer Munich</a>
+									<a href="#">Bayer Munichn</a>
+									<a href="#">BBVA</a>
+									<a href="#">Xboxn</a>
+									<a href="#">BCP</a>
+									<a href="#">Bayer Munichn</a>
+									<a href="#">Bayer Munichn</a>
+									<a href="#">BBVA</a>
+									<a href="#">Xbox</a>
+									<a href="#">BCP</a>
+								</div>
+								<div class="col-lg-3">
+									<a href="#">One Direction</a>
+									<a href="#">ONPE</a>
+									<a href="#">Pablo Escobar</a>
+									<a href="#">Paolo Guerrero</a>
+									<a href="#">Pensión 65</a>
+									<a href="#">PNP</a>
+									<a href="#">Precio del dólar</a>
+									<a href="#">Universidad Cesar Vallejo</a>
+									<a href="#">Universidad San Martin</a>
+									<a href="#">Premier League</a>
+									<a href="#">Bayer Munich</a>
+									<a href="#">Bayer Munich</a>
+									<a href="#">BBVA</a>
+									<a href="#">Xbox</a>
+									<a href="#">BCP</a>
+									<a href="#">Proyecto Conga</a>
+									<a href="#">PUCP</a>
+									<a href="#">Real Madrid</a>
+									<a href="#">Redes Sociales</a>
+									<a href="#">Reniec</a>
+									<a href="#">Robert Pattinson</a>
+								</div>
+								<div class="col-md-3">
+									<a href="#">Al fondo hay sitio</a>
+									<a href="#">Alejandro Toledo</a>
+									<a href="#">Alianza Lima</a>
+									<a href="#">Alianza Lima</a>
+									<a href="#">Banco de la Nación</a>
+									<a href="#">Barack Obama</a>
+									<a href="#">Universidad Cesar Vallejo</a>
+									<a href="#">Universidad San Martín</a>
+									<a href="#">Barcelona</a>
+									<a href="#">Bayer Munich</a>
+									<a href="#">Bayer Munichn</a>
+									<a href="#">BBVA</a>
+									<a href="#">Xboxn</a>
+									<a href="#">BCP</a>
+									<a href="#">Bayer Munichn</a>
+									<a href="#">Bayer Munichn</a>
+									<a href="#">BBVA</a>
+									<a href="#">Xbox</a>
+									<a href="#">BCP</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="container enlace">
+						<a href="#">Diarios de Pal:</a>
+						<a href="#">Clarín</a>
+						<a href="#">La Tercera</a>
+						<a href="#">El Universal Colombia</a>
+						<a href="#">El Universal Venezuela</a>
+						<a href="#">Vanguardia</a>
+						<a href="#">La Prensa</a>
+						<a href="#">El Salvador</a>
+						<a href="#">La Verdad</a>
+						<a href="#">Diario Libre</a>
+						<a href="#">El diario de hoy</a>
+						<a href="#">El Colombiano</a>
+					</div>
+				</div>
+				<div class="ft-small hidden-lg">
+					<div class="container ft-small-text">
+						<h3>Grupo La Republica Digital</h3>
+						<p>Jr. Camaná 320 Cercado de Lima</p>
+					</div>
+				</div>
+			</footer>
+
+			<script src="js/jquery.min.js"></script>
+	   	<script src="js/bootstrap.min.js"></script>
+		</body>
+	</html>

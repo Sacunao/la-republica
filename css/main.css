@@ -1,0 +1,394 @@
+body{
+	font-family: "PT Sans"
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*--------------- Section Principales Noticias ----------*/
+.temas_dia li {
+	float: left;
+}
+.principal_noticias{
+	text-align:  center;
+}
+.principal_noticias h1{
+	font-size: 4em;
+    font-weight: 600;
+    padding: 0px 1.2em;
+}
+.principal_noticias a{
+	font-weight: 600;
+	color: white;
+}
+/*---------------------iconos--------*/
+.iconos{
+	background-color: #F5F5F5;
+	border-radius: 0.2em;
+    font-size: 1em;
+    
+}
+.fa-facebook{
+	color: #00468C;
+	border-bottom: 3px solid #00468C;
+	padding: 0.3em 0.6em;
+}
+.fa-facebook:hover{
+	background: rgba(0, 70, 140, 0.2);
+    cursor: pointer;
+}
+.fa-twitter{
+	color: #009BCE;
+	border-bottom: 3px solid #009BCE;
+	padding: 0.3em 0.4em;
+}
+.fa-twitter:hover{
+	background: rgba(0, 155, 206, 0.1);
+    cursor: pointer;
+}
+.fa-google-plus{
+	color: #E94434;
+	border-bottom: 3px solid #E94434;
+	padding: 0.3em 0.4em;
+}
+.fa-google-plus:hover{
+	background: rgba(233,68,52, 0.1);
+    cursor: pointer;
+}
+/*------------------ redes sociales------------- */
+.redes_sociales{
+	width: 23.4em;
+    margin: 0 auto;
+}
+.redes_sociales ul{
+	float: right;
+    margin: 0.25em 0em; 
+}
+.redes_sociales ul li{
+	float: left;
+    padding-right: 1.5em;
+    font-size: 0.9em;
+}
+.text_principal li {
+	color: #DADEE2;
+}
+.text_principal li a{
+	color: #DADEE2;
+	font-size: 0.75em;
+}
+/*-------------- section - Image articulos ------------*/
+.image_articulos{
+ padding: 2.5em 0em; 
+}
+.noticia_principal{
+	background-image: url("../image/img_grid_principal.jpg");
+    width: 100%;
+    height: 32.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    position: relative;
+    margin-bottom: 1em;
+}
+.noticia_secundario{
+	background-image: url("../image/img_grid_secundario.jpg");
+	background-size: cover;
+	height: 15.6em;
+	width: 100%;
+	margin: 0em 0em 0.65em 0em;
+	text-align: left;
+	position: relative;
+}
+.noticia_next{
+	position: absolute;
+    top: 21.8em;
+    left: 0.9em;
+}
+.noticia_next_a{
+	position: absolute;
+    top: 5.2em;
+    left: 0.9em;
+}
+.noticia_next_b{
+	position: absolute;
+    top: 7em;
+    left: 0.9em;
+    margin:0;
+}
+.image_articulos .redes_sociales{
+	margin: 0;
+}
+/*---------------Area Columnista----------*/
+.columnistas * {
+	font-family:"Oswald";
+}
+.columnistas{
+	border-top: 4px solid #C00101;
+	margin-top: 3.1em;
+	background-color: #eee;
+	text-align: center;
+}
+.cabecera{
+	background-color: #C00101;
+  	color: white;
+  	padding: 0.2em 0.4em;
+  	position: relative;
+  	top: -7px;
+  	font-size: 1.7em;
+
+}
+.image-section-columnistas{
+	margin: 0 auto;
+	margin-top: 2em;
+}
+.imagens2{
+	background: #fff;
+	height: 6.8em;
+	padding: 4px;
+	width: 6.8em;
+	display: inline-block;
+}
+.texto1 a{
+	text-align: center;
+	color: black
+}
+.titulo-columnistas{
+	font-family: PT-sans, sans-serif;
+   font-size: 0.8em;
+   margin: 10px 0px; 
+}
+.subtitulo-columnistas{
+	font-size:1em; 
+}
+.texto1 a:hover{
+ color: black
+}
+/*-------------------H07 -noticias -destacadas---------*/
+.H07-noticias-destacadas{
+	padding: 3.1em 0em;
+}
+.titulo-destadas {
+	color: #C00101;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+.img-thumbnail{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+	margin: 0.7em 0em; 
+}
+.image-noticias{
+	background-image: url("../image/img_especiales.jpg");
+	background-size: cover;
+	background: rgba(255,255,255,0.);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	height: 10em;
+	text-align: left;
+}
+.lista-noticias{
+	font-weight: bold;
+	line-height: 25px;
+}
+.image-noticias h3 a{
+	font-size: 20px;
+	color: white;
+  position: absolute;
+  bottom: 0.6em;
+  left: 0.6em;
+}
+.image-noticias h3 a:hover{
+	color: white;
+}
+.img-thumbnail p{
+	margin:10px; 
+}
+.img-thumbnail span{
+	font-family: PT-sans, sans-serif;
+  font-size: 0.9em; 
+}
+.img-thumbnail p a{
+ color: black;
+}
+.img-thumbnail p a:hover{
+ color: black;
+}
+
+@media(max-width: 768px){
+	.container{
+		width: 90%;
+		font-size: 12px;
+	}
+	.principal_noticias h1{
+	font-size: 1.9em;
+    
+		}
+	.redes_sociales{
+	width: 20em;
+	}
+	.image_articulos .redes_sociales{
+	margin: 0;
+	width: 22em;
+	}
+	.principal_noticias a{
+	font-weight: 600;
+	color: white;
+	font-size: 0.9em;
+	}
+	.noticia_next{
+	position: absolute;
+    top: 19em;
+    left: 0.9em;
+	}
+	.noticia_next_a{
+	position: absolute;
+    top: 4em;
+    left: 0.9em;
+	}
+	.noticia_next_b{
+	position: absolute;
+    top: 5em;
+    left: 0.9em;
+    margin:0;
+	}
+ 
+ /*MEDIA QUERY*/
+ @media(max-width: 1200px){
+	.noticia_next{
+	position: absolute;
+    top: 20em;
+    left: 0.9em;
+	}
+	.noticia_next_a{
+	position: absolute;
+    top: 3.5em;
+    left: 0.9em;
+	}
+	.noticia_next_b{
+	position: absolute;
+    top: 4.5em;
+    left: 0.9em;
+    margin:0;
+	}
+}
+
+/*aweita, foto destacada, */
+.imagenaweita{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.borde{
+	border: 1px solid gray;
+}
+.media img{
+	border: 2px solid gray;
+}
+.margin-top{
+	margin-top: 10%;
+}
+.linea{
+	width: 43%;
+	height: 8px;
+	background-color: #6A0888;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.lineados{
+	width: 43%;
+	height: 8px;
+	background-color: #B40431;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.lineatres{
+	width: 43%;
+	height: 8px;
+	background-color: #FACC2E;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+a{
+color: black;
+}
+.morado{
+	color: #6A0888;
+}
+.morado:hover {
+	color: #6A0888;
+}
+.red{
+	color: #B40431;
+}
+.red:hover{
+	color: #B40431;
+}
+/*especiales- Régimen Laboral Juvenil */
+/*infografias*/
+.foto-destacada{
+	background-image: url("../image/img_fotodes_prominent.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 212px;
+	border: 2px solid gray;
+	margin-top: 8%;
+    margin-bottom: 3%;
+}
+.border-bottom { 
+	border-bottom: 2px solid #ccc;
+	margin-top: 8%;
+    margin-bottom: 3%; 
+}
+/* especiales */
+.img_especiales_aside{
+	background-image: url("../image/img_especiales_aside.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 212px;
+	margin-top: 6%;
+    margin-bottom: 3%;
+}
+.opacity {
+    padding: 10px 40px;
+    background: #fff;
+    width: 305px;
+    opacity: 0.9;
+    margin-left: 10%;
+    margin-top: -18%;
+    margin-bottom: 11%;
+}
+.opacity_espcies {
+    padding: 10px 40px;
+    background: #fff;
+    width: 305px;
+    opacity: 0.9;
+    margin-left: 10%;
+    margin-top: -22%;
+    margin-bottom: 14%;
+}
+.border-botton-esp { 
+    border-bottom: 2px solid #ccc;
+    margin-top: -7%;
+    margin-bottom: 8%; 
+}
+/*Carlincaturas*/
+.img_carlincatura{
+	background-image: url("../image/img_carlincatura_sd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 229px;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+.subrayado-blog{
+	text-decoration: underline;
+}
+

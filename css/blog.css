@@ -1,0 +1,85 @@
+/*--------Section blogs------*/
+body{
+	font-size: 16px;
+}
+.inline{
+	display: inline;
+}
+.p-b-12{
+	padding-bottom: 12px;
+}
+.col-blog{
+	padding-right: 0;
+}
+.text-center{
+	text-align: center;
+}
+.blogtittle{
+	font-size: 1.5em;
+}
+.lastblogs{
+	font-size: 0.9em;
+}
+.blogdate{
+	font-size: 0.8em;
+}
+.blue-gray{
+	color: #60597F;
+	font-weight: 300;
+}
+.gray{
+	color: #7C7989;
+}
+.link-blogs{
+	color: black;
+	font-size: 1.1em;
+}
+.sub-blog{
+	font-size: 0.7em;
+}
+.blog-type{
+	font-size: 0.8em;
+	margin: 0px;
+}
+.content-blog{
+	border: 2px #D8D8D8 solid;
+	margin-top: 15px;
+	padding: 40px 5px 10px 5px;
+}
+.content-bloggers{
+	padding: 10px;
+}
+.bg-gray{
+	background-color: #D8D8D8;
+}
+.img-blogger{
+	border: 2px white solid;
+}
+#blogs {
+	margin-bottom: 2%;
+}
+/*----Media Queries-------*/
+@media (max-width: 1024px){
+	body{
+	font-size: 16px;
+	}
+}
+@media (max-width: 982px){
+	body{
+	font-size: 14px;
+	}
+}
+@media (max-width: 768px){
+	body{
+	font-size: 14px;
+	}
+}
+
+@media (max-width: 640px){
+	body{
+	font-size: 12px;
+	}
+	.container{
+		width: 90%;
+	}
+}
