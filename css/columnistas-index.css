@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"Oswald";
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+/*---------------Area Columnista----------*/
+.columnistas{
+	border-top: 4px solid #C00101;
+	margin-top: 3.1em;
+	background-color: #eee;
+	text-align: center;
+}
+.cabecera{
+	background-color: #C00101;
+  color: white;
+  padding: 0.2em 0.4em;
+  position: relative;
+  top: -7px;
+  font-size: 1.7em;
+
+}
+.image-section-columnistas{
+	margin: 0 auto;
+	margin-top: 2em;
+}
+.imagens2{
+	background: #fff;
+	height: 6.8em;
+	padding: 4px;
+	width: 6.8em;
+	display: inline-block;
+}
+.texto1 a{
+	text-align: center;
+	color: black
+}
+.titulo-columnistas{
+	font-family: PT-sans, sans-serif;
+   font-size: 0.8em;
+   margin: 10px 0px; 
+}
+.subtitulo-columnistas{
+	font-size:1em; 
+}
+.texto1 a:hover{
+ color: black
+}
+/*-------------------H07 -noticias -destacadas---------*/
+.H07-noticias-destacadas{
+	padding: 3.1em 0em;
+}
+.titulo-destadas {
+	color: #C00101;
+  font-size: 1.5em;
+  text-align: center;
+}
+.img-thumbnail{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+	margin: 2em 0em; 
+}
+.image-noticias{
+	background-image: url("../image/img_especiales.jpg");
+  background-size: cover;
+  background: rgba(255,255,255,0.);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 13em;
+  text-align: left;
+}
+.lista-noticias{
+	line-height: 25px;
+}
+.image-noticias h3 a{
+	font-size: 20px;
+	color: white;
+  position: absolute;
+  bottom: 0.6em;
+  left: 0.6em;
+}
+.image-noticias h3 a:hover{
+	color: white;
+}
+.img-thumbnail p{
+	margin:10px; 
+}
+.img-thumbnail span{
+	font-family: PT-sans, sans-serif;
+  font-size: 0.9em; 
+}
+.img-thumbnail p a{
+ color: black;
+}
+.img-thumbnail p a:hover{
+ color: black;
+}
