@@ -139,7 +139,16 @@ input{
 .cuadroDere .texto a{
 	color: black;
 }
-
+.image-right {
+	width: 43px;
+  position: relative;
+  top: -10px;
+}
+.image-left {
+	  width: 37px;
+    padding: 10px;
+    background-color: #2C3238;
+}
 /*****nav******/
 .nav-tabs {
 	font-family: Oswald;

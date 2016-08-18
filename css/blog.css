@@ -1,5 +1,5 @@
 /*--------Section blogs------*/
-*{
+body{
 	font-size: 16px;
 }
 .inline{
@@ -55,7 +55,9 @@
 .img-blogger{
 	border: 2px white solid;
 }
-
+#blogs {
+	margin-bottom: 2%;
+}
 /*----Media Queries-------*/
 @media (max-width: 1024px){
 	body{
