@@ -1,0 +1,25 @@
+*{
+	font-size: 16px;
+}
+.container{
+	width: 80%;
+}
+/* form suscripcion */
+
+.suscripcioncuadro{
+	/*background: url(../image/bg_trama_rayas.jpg);*/
+	background-color: red;
+	padding: 40px 0px 10px 0px;
+}
+.bg-whiteform{
+	background-color: #FFFFFF;
+}
+.bg-whiteform form{
+	width: 100%;
+	padding: 20px 40px 10px 10px;
+}
+.d-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
