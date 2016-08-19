@@ -218,6 +218,92 @@ body{
  color: black;
 }
 
+/*--------------------H08-ultimas-noticias---------------*/
+
+.blue-gray{
+	color: #60597F;
+	font-weight: 300;
+}
+.lastblogs{
+	font-size: 0.9em;
+	display: inline;
+}
+.H08-ultimas-noticias{
+	padding: 2em 0em;
+}
+.H08-ultimas-noticias h3{
+	font-weight: 600;
+	margin-top: 0;
+}
+.H08-ultimas-noticias .texto-destacadas{
+	color: black;
+	font-size: 1.3em;
+}
+.padding-noticias{
+	padding: 1em 0em;
+}
+.noticias-destacadas .image-emma{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.8em;
+}
+.noticias-destacadas{
+	text-align: left;
+}
+.fecha-noticias-destacadas{
+	color: #768596;
+	font-size: 0.8em;
+}
+ .H08-ultimas-noticias span{
+ 	color: #768596;
+	font-size: 0.8em; 
+ }
+.linea-ultimas-noticias{
+	border-bottom: 1px solid #768596;
+	padding-top: 1em;
+}
+
+/*---------------------iconos--------*/
+.iconos2{
+	background-color: #F5F5F5;
+	border-radius: 0.2em;
+    font-size: 1.3em;   
+}
+.image-bullet{
+	margin:0.5em;
+}
+.fa-facebook{
+	color: #00468C;
+	border-bottom: 3px solid #00468C;
+	padding: 0.3em 0.6em;
+}
+.fa-facebook:hover{
+	background: rgba(0, 70, 140, 0.2);
+    cursor: pointer;
+}
+.fa-twitter{
+	color: #009BCE;
+	border-bottom: 3px solid #009BCE;
+	padding: 0.3em 0.4em;
+}
+.fa-twitter:hover{
+	background: rgba(0, 155, 206, 0.1);
+    cursor: pointer;
+}
+.fa-google-plus{
+	color: #E94434;
+	border-bottom: 3px solid #E94434;
+	padding: 0.3em 0.4em;
+}
+.fa-google-plus:hover{
+	background: rgba(233,68,52, 0.1);
+    cursor: pointer;
+}
+.fa-youtube-play{
+	color: #E94434;
+	font-size: 1.3em;
+}
+
 /* form suscripcion */
 
 .suscripcioncuadro{
@@ -254,6 +340,23 @@ body{
 	padding: 5px 3.2em;
 	background-color: #C00101;
 	color: white;
+}
+/*---------Pregunta del dia---------*/
+.bg-pgt {
+	background: url(../image/trama_square.jpg);
+	padding: 40px 0px 10px 0px;
+}
+.bg-white {
+	background-color: #fff;
+	margin: 3%;
+	padding: 2%;
+}
+.img-pg {
+	margin-top: -25px;
+}
+.pgt-enlace {
+	font-weight: bold;
+	color: #000;
 }
 
  /*MEDIA QUERY*/
