@@ -138,6 +138,12 @@ body{
   	font-size: 1.7em;
 
 }
+.cabecera a{
+	color: white;
+}
+.cabecera a:hover{
+	color: white;
+}
 .image-section-columnistas{
 	margin: 0 auto;
 	margin-top: 2em;
@@ -308,7 +314,8 @@ body{
 
 .suscripcioncuadro{
 	background: url(../image/trama_square.jpg);
-	padding: 40px 0px 10px 0px;
+	padding: 40px 20px 10px 20px;
+	margin-bottom: 20px;
 }
 .bg-whiteform{
 	background-color: #FFFFFF;
@@ -317,11 +324,13 @@ body{
 	width: 100%;
 	padding: 10px 35px;
 }
+/*
 .d-flex{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+*/
 .suscripcionimg{
 	margin-top: -25px;
 }
@@ -341,17 +350,21 @@ body{
 	background-color: #C00101;
 	color: white;
 }
+
 /*---------Pregunta del dia---------*/
-.pregunta {
+.bg-pregunta {
 	background: url(../image/trama_square.jpg);
+	padding: 20px;
 }
 .bg-white {
 	background-color: #fff;
-	margin: 3%;
 	padding: 2%;
 }
 .img-pg {
 	margin-top: -25px;
+}
+.pgt-text {
+	font-weight: bold;
 }
 
 /*aweita, foto destacada, */
@@ -406,6 +419,42 @@ color: black;
 .red:hover{
 	color: #B40431;
 }
+#destacados, #especiales, #bloggers, #infografia  {
+	border-top: 4px #939393 solid;
+	margin-top: 20px;
+}
+.cabeceradestacados{
+	background-color: #939393;
+  	color: white;
+  	padding: 0.2em 0.4em;
+  	position: relative;
+  	top: -9px;
+  	left: 32%;
+  	font-size: 1em;
+  	font-family: Oswald;
+}
+
+.cabeceradestacados a, .cabeceracarlin a {
+	color: white;
+}
+.cabeceradestacados a:hover, .cabeceracarlin a:hover {
+	color: white;
+}
+#carlin, #impresion {
+	border-top: 3px #C00101 solid;
+	margin-top: 20px;
+}
+.cabeceracarlin {
+	background-color: #C00101;
+  	color: white;
+  	padding: 0.2em 0.4em;
+  	position: relative;
+  	top: -9px;
+  	left: 28%;
+  	font-size: 1em;
+  	font-family: Oswald;
+}
+
 /*especiales- Régimen Laboral Juvenil */
 /*infografias*/
 .foto-destacada{
