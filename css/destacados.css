@@ -7,7 +7,7 @@
 .borde{
 	border: 1px solid gray;
 }
-.media img{
+.borde-img{
 	border: 2px solid gray;
 }
 .margin-top{
@@ -56,7 +56,7 @@ color: black;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
-	height: 212px;
+	height: 176px;
 	border: 2px solid gray;
 	margin-top: 8%;
     margin-bottom: 3%;
@@ -79,24 +79,24 @@ color: black;
 .opacity {
     padding: 10px 40px;
     background: #fff;
-    width: 305px;
+    width: 270px;
     opacity: 0.9;
-    margin-left: 10%;
-    margin-top: -18%;
-    margin-bottom: 11%;
+    margin-left: 6%;
+    margin-top: -32%;
+    margin-bottom: 9%;
 }
 .opacity_espcies {
-    padding: 10px 40px;
+    padding: 0px 35px;
     background: #fff;
-    width: 305px;
+    width: 270px;
     opacity: 0.9;
-    margin-left: 10%;
-    margin-top: -22%;
-    margin-bottom: 14%;
+    margin-left: 6%;
+    margin-top: -33%;
+    margin-bottom: 46%;
 }
 .border-botton-esp { 
     border-bottom: 2px solid #ccc;
-    margin-top: -7%;
+    margin-top: -37%;
     margin-bottom: 8%; 
 }
 /*Carlincaturas*/
@@ -110,6 +110,17 @@ color: black;
     margin-top: 6%;
     margin-bottom: 3%;
 }
-.subrayado-blog{
+.subrayado{
 	text-decoration: underline;
+}
+.img_impreso{
+	background-image: url("../image/img_impreso_sd_prominent.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    height: 420px;
+	margin-top: 8%;
+    margin-bottom: 3%;
+}
+.centro-edicion{
+    padding-top: 17%;
 }
