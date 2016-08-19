@@ -1,0 +1,27 @@
+*{
+	font-size: 16px;
+}
+.container{
+	width: 80%;
+}
+/* mascotas */
+
+.mascotacuadro{
+	background: url(../image/trama_square.jpg);
+	padding: 40px 0px 10px 0px;
+}
+.bg-whitemascot{
+	background-color: #FFFFFF;
+}
+.mascotimg{
+	width: 100%;
+	padding: 10px 35px;
+}
+.d-flexmascot{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mascotimg{
+	margin-top: -25px;
+}
