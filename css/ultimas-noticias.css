@@ -84,23 +84,3 @@ body{
 	font-size: 1.3em;
 }
 /*------------------ redes sociales------------- */
-.redes_sociales{
-	width: 23.4em;
-    margin: 0 auto;
-}
-.redes_sociales ul{
-	float: right;
-    margin: 0.25em 0em; 
-}
-.redes_sociales ul li{
-	float: left;
-    padding-right: 1.5em;
-    font-size: 0.9em;
-}
-.text_principal li {
-	color: #DADEE2;
-}
-.text_principal li a{
-	color: #DADEE2;
-	font-size: 0.75em;
-}
