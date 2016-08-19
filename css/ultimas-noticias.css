@@ -83,4 +83,68 @@ body{
 	color: #E94434;
 	font-size: 1.3em;
 }
-/*------------------ redes sociales------------- */
+/*--------------mascotas--------*/
+#reportero_ciudadano{
+	background: url(../image/trama_square.jpg);
+	text-align: center; 	
+	margin: 10px 0px;
+}
+.fondo_reportero {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px 10px;
+}
+.icono-reportero{
+	  top: -30px;
+    position: relative;
+}
+.carro-reportero{
+	width: 100%;
+}
+.font-reportero{
+	font-weight: 600;
+}
+.fondo_reportero h3{
+	margin-top: 0px;
+}
+.left-reportero{
+	text-align: left;
+}
+.fondo_reportero p{
+	margin-bottom: 20px;
+}
+#reportero_ciudadano a{
+	background-color: #b71c1c;
+	color:white; 
+	padding: 10px 20px;
+	margin-top: 10px;
+	text-decoration: none;	
+	border-radius: 5px;
+}
+#reportero_ciudadano a:hover{
+	background-color: #E94434;
+}
+.mas-reportero{
+	margin-top: 20px;
+}
+/*------------Mi mascota---------*/
+#mi_mascota{
+	background: url(../image/trama_square.jpg);
+	text-align: center; 	
+}
+#mi_mascota a{
+	background-color: #b71c1c;
+	color:white; 
+	padding: 10px 20px;
+	margin-top: 10px;
+	text-decoration: none;	
+	border-radius: 5px;
+}
+#mi_mascota a:hover{
+	background-color: #E94434;
+}
